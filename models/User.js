@@ -1,5 +1,5 @@
 const Sequelize = require('sequelize');
-const sequelize = new Sequelize('postgres://user:pass@example.com:5432/dbname');
+const sequelize = new Sequelize('ec2-50-19-88-36.compute-1.amazonaws.com');
 
 const User = sequelize.define('user', {
   firstName: {
